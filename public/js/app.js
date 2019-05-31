@@ -25,7 +25,7 @@ weatherForm.addEventListener('submit', (e) => {
         }
         else{
             messageOne.textContent = data.location
-            messageTwo.textContent = data.summary + ' It is currently ' + data.temperature + ' degrees with a ' + data.precipProb + ' percent chance of rain.' 
+            messageTwo.textContent = data.summary + ' It is currently ' + data.temperature + ' degrees with a ' + data.precipProb + ' percent chance of rain. Today\'s high is ' + data.highTemp + ' and the low is ' + data.lowTemp + '.'
         }
     })
 })
